@@ -9,7 +9,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/animations.css">
 </head>
 
 <body>
@@ -17,7 +21,7 @@
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Brand/logo -->
     <a class="navbar-brand" href="#home">
-      <img src="includes/LogoNew_noBackground_light.png" alt="logo" style="width:40px;">
+      <img src="includes/DDS-01.png" alt="logo" style="width:40px;">
     </a>
 
     <!-- Links -->
@@ -37,110 +41,179 @@
     </ul>
   </nav>
 
-</body>
-
-</html>
-
-<!-- Hero-->
-<div class="hero-image">
-  <div class="hero-text">
-    <h1> Cutting Edge Designs</h1>
-    <h3> That just hit different!</h3>
-    <button type="button" class="btn btn-primary">Find out More</button>
-  </div>
-</div>
-
-<!-- services -->
-<div class="services"
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-4" style="background-color:whitesmoke;">
-  <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-    alt="Generic placeholder image" width="140" height="140">
-  <h2>Heading</h2>
-  <p> Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem
-    pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud
-    ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut
-    officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris
-    cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
-    eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-    ullamco ut ea consectetur et est culpa et culpa duis.</p>
-  <a class="btn btn-secondary" href="#" role="button">View more »</a>
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="includes/Background - 9584.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">The Human</h1>
+          <p class="lead mb-0">Behind the Technology</p>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4" style="background-color: white;">
-<img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-  alt="Generic placeholder image" width="140" height="140">
-<h2>Heading</h2>
-<p> Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem
-  pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud
-  ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut
-  officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris
-  cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
-  eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-  ullamco ut ea consectetur et est culpa et culpa duis.</p>
-<a class="btn btn-secondary" href="#" role="button">View more »</a>
-</div>
-<div class="col-sm-4" style="background-color: whitesmoke;">
-<img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-  alt="Generic placeholder image" width="140" height="140">
-<h2>Heading</h2>
-<p> Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem
-  pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud
-  ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut
-  officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris
-  cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
-  eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-  ullamco ut ea consectetur et est culpa et culpa duis.</p>
-<a class="btn btn-secondary" href="#" role="button">View more »</a>
-</div>
-</div>
-</div>
+  </header>
 
 
-<!--aboput me-->
-<div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading">Dare to be...<span class="text-muted">unique</span></h2>
-    <p class="lead"><strong> Hi!</strong> My name is Skittles, and my "owner" is a Rick Marshall. He is a developer and
-      entrepreneur based out of Tampa Florida.
-      And while he lives in the southern united states, it was not always this way. He was in the Army for decades,
-      lived abroad for over 10 years in Italy, Germany and the UK and loves to see benefit come from hard work. </p><br>
-    <h2> Designed to be... <span class="text-muted"> extraordinary</span></h2>
-    <p class="lead"> for the past 30 years, we have been focsed on delivering solutions to problems. <strong>
-        SOLUTIONS</strong> as we have never been interested in
-      things that did not deliver the expected value to the user. whether that was an enterprise Project Management
-      System, a Branded Web Site or even a Bradley Fighting System.
-      If you are not delivering value, <strong> THEN WHY START?</strong></p>
-    <h2> Designed to be... <span class="text-muted"> extraordinary</span></h2>
-    <p class="lead"> Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-      nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud
-      nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur
-      ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris
-      cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
-      eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-      ullamco ut ea consectetur et est culpa et culpa duis.</p>
-    <h2> Designed to be... <span class="text-muted"> extraordinary</span></h2>
-    <p class="lead"> Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-      nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud
-      nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur
-      ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris
-      cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
-      eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-      ullamco ut ea consectetur et est culpa et culpa duis.</p>
+  <!-- services -->
+  <div class="services">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4" style="background-color:whitesmoke;" id="service1" class="animate slideUp">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+            <i class="fas fa-drafting-compass fa-stack-1x"></i>
+          </span>
+          <h2>Architecture</h2>
+          <p> Architecture represents <strong>THE PLAN</strong>. I still find it incredible that organizations of
+            significant
+            revenues still invent thier digital platforms on the fly, willing to roll the dice and take the chance that
+            they
+            will not to significantly redesign these same systems for <strong>40% more money</strong> to achieve the
+            same results.
+            Investing in cognizant planning early is certianly a competitive advantage! </p>
+          <a class="btn btn-secondary" href="#" role="button">View more »</a>
+        </div>
+        <div class="col-sm-4" style="background-color: white;" id="service2" class="animate slideUp">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x icon-background2"></i>
+            <i class="far fa-compass fa-stack-1x"></i>
+          </span>
+          <h2>Operations</h2>
+          <p> Operations Managers are responsible for ensuring that processes are developed, followed, analysed and
+            adjusted,
+            and for overseeing those processes in all the elements of a business. This implies that managers and
+            supervisors
+            charged with these improtant tasks, understand the process, desired output and important to the
+            organization.</p>
+          <a class="btn btn-secondary" href="#" role="button">View more »</a>
+        </div>
+        <div class="col-sm-4" style="background-color: whitesmoke;" id="service3" class="animate slideUp">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+            <i class="far fa-file-code fa-stack-1x"></i>
+          </span>
+          <h2>Data</h2>
+          <p> At the center of is all is <strong> is data</strong>. In our digital environment, data is both our raw
+            material
+            and our product. Many compnies acquire enterprise systems with no architecture guiding production process or
+            the
+            tying the system to processes and people giving way to potential program failure and loss of resources
+            consisting
+            of both employee's time and the companies hard earned revenue.
+          <p>
+          </p>
+          <a class="btn btn-secondary" href="#" role="button">View more »</a>
+        </div>
+      </div>
+    </div>
   </div>
 
-
-  <div class="col-md-5">
-    <img class="featurette-image img-fluid mx-auto" src="includes/skits.png" alt="500x500">
+  <div>
+    <hr class="featurette-divider">
   </div>
+
+  <!--aboput me-->
+  <div class="row featurette">
+    <div class="col-sm-3 col-md-7">
+      <h2 class="featurette-heading">Dare to be...<span class="text-muted">eccentric</span></h2>
+      <p class="lead"><strong> Hi!</strong> My name is Skittles, and my "owner" is a Rick Marshall. He is a developer
+        and
+        entrepreneur based out of Tampa Florida.
+        And while he lives in the southern United States, it was not always this way. He was in the Army for decades,
+        lived abroad for over 10 years in Italy, Germany and the UK and loves to see benefit come from hard work. </p>
+      <h2 class="featurette-heading">Designed to be... <span class="text-muted"> eclectic </span></h2>
+      <p class="lead"> For the past 30 years, we have been focsed on delivering solutions to problems. <strong>
+          SOLUTIONS</strong> as I have never been interested in
+        things that did not deliver the expected value to the user. Whether that was an enterprise Project Management
+        System, a Branded Web Site or even a Bradley Fighting System.
+        If you are not delivering value, <strong> THEN WHY START?</strong>Solutions also come from a diversificaiton of
+        thought
+        and ideas.</p>
+      <h2 class="featurette-heading">Developed to be... <span class="text-muted"> extraordinary</span></h2>
+      <p class="lead"> I believe that extrtraordinary outcomes stem from effecient executtion of the basics. Just like
+        the elite
+        military teams entrusted with their countries most difficult missions, seldom train on advanced techniquest
+        until the basics
+        are mastered. This is the acceptance of the reality that mastery of a profession is through the command of its
+        building blocks.
+        Rick thinks this is true as well.
+      </p>
+      <h2 class="featurette-heading">Destined to be... <span class="text-muted"> efficacious </span></h2>
+      <p class="lead"> This brings me back to the beginning. I achieve the desired effects thorugh mastery
+        of the basic components such as architecture, operations and data. Not one of these aspects brings
+        success of itself, but is the orchestration of component parts.
+      </p>
+    </div>
+    <div class="col-sm-5 col-md-5">
+      <img class="featurette-image img-fluid mx-auto" src="includes/skits.png" alt="500x500">
+    </div>
+  </div>
+
+  <!-- our work-->
+  <div>
+    <hr class="featurette-divider">
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3 col-md-4">
+      <div class="card" style="width:400px">
+        <img class="card-img-top" src="includes/rpsls.jpg" alt="portfolio items rock paper scissors">
+        <div class="card-body">
+          <h4 class="card-title">Rock Paper Scissor Lizard Spock</h4>
+          <p class="card-text">A new twist on a classic game.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-sm-3 col-md-4">
+      <div class="card" style="width:400px">
+        <img class="card-img-top" src="http://ddsciences.com/assets/img/logo_large_s.png"
+          alt="portfolio item Corporate site">
+        <div class="card-body">
+          <h4 class="card-title">A Corporate Site</h4>
+          <p class="card-text">A new twist on a classic game.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-sm-3 col-md-4">
+      <div class="card" style="width:400px">
+        <img class="card-img-top" src="includes/travel.png" alt="portfolio items travel app">
+        <div class="card-body">
+          <h4 class="card-title">A Corporate Site</h4>
+          <p class="card-text">A new twist on a classic game.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div>
+    <hr class="featurette-divider">
+      <div class="contact-header">
+        <h1>Contact Us</h1>
+      </div>
+  </div>
+  <div class="container"></div>
+    <div class="row" >
+      
+      <img src="includes/1717.png" alt="basemap">
+
+  </div>
+
 
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-right"><a href="#home">Back to top</a></p>
     <p>&copy; 2020 Decision and Data Sciences, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
-
-
 
   <!-- Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -149,6 +222,87 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
-  </body>
+  <script src="https://kit.fontawesome.com/36565585eb.js" crossorigin="anonymous"></script>
 
-  </html>
+  <!-- openmap script-->
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+  <!--service animation script-->
+  <script>
+    $(window).scroll(function () {
+      $('#service1').each(function () {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 200) {
+          $(this).addClass("slideUp");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    $(window).scroll(function () {
+      $('#service1').each(function () {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 200) {
+          $(this).addClass("slideUp");
+        }
+      });
+    });
+  </script>
+  <script>
+    $(window).scroll(function () {
+      $('#service2').each(function () {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 600) {
+          $(this).addClass("slideUp");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    $(window).scroll(function () {
+      $('#service2').each(function () {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 200) {
+          $(this).addClass("slideUp");
+        }
+      });
+    });
+  </script>
+  <script>
+    $(window).scroll(function () {
+      $('#service3').each(function () {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 175) {
+          $(this).addClass("slideUp");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    $(window).scroll(function () {
+      $('#service3').each(function () {
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow + 150) {
+          $(this).addClass("slideUp");
+        }
+      });
+    });
+
+</body>
+
+</html>
