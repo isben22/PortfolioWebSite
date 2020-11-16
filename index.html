@@ -18,7 +18,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="home">
     <!-- Brand/logo -->
     <a class="navbar-brand" href="#home">
       <img src="includes/DDS-01.png" alt="logo" style="width:40px;">
@@ -27,22 +27,22 @@
     <!-- Links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#services">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#aboutme">About Me</a>
+        <a class="nav-link" href="#about">About Me</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link" href="#contact-form">Contact</a>
       </li>
     </ul>
   </nav>
 
   <header>
-    <div class="overlay"></div>
+    <div class="overlay" id="home"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
       <source src="includes/Background - 9584.mp4" type="video/mp4">
     </video>
@@ -58,7 +58,7 @@
 
 
   <!-- services -->
-  <div class="services">
+  <div class="services" id="services">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-4" style="background-color:whitesmoke;" id="service1" class="animate slideUp">
@@ -69,11 +69,11 @@
           <h2>Architecture</h2>
           <p> Architecture represents <strong>THE PLAN</strong>. I still find it incredible that organizations of
             significant
-            revenues still invent thier digital platforms on the fly, willing to roll the dice and take the chance that
+            revenues still invent their digital platforms on the fly, willing to roll the dice and take the chance that
             they
             will not to significantly redesign these same systems for <strong>40% more money</strong> to achieve the
             same results.
-            Investing in cognizant planning early is certianly a competitive advantage! </p>
+            Investing in cognizant planning early is certainly a competitive advantage! </p>
           <a class="btn btn-secondary" href="#" role="button">View more »</a>
         </div>
         <div class="col-sm-4" style="background-color: white;" id="service2" class="animate slideUp">
@@ -86,7 +86,7 @@
             adjusted,
             and for overseeing those processes in all the elements of a business. This implies that managers and
             supervisors
-            charged with these improtant tasks, understand the process, desired output and important to the
+            charged with these important tasks, understand the process, desired output and important to the
             organization.</p>
           <a class="btn btn-secondary" href="#" role="button">View more »</a>
         </div>
@@ -98,7 +98,7 @@
           <h2>Data</h2>
           <p> At the center of is all is <strong> is data</strong>. In our digital environment, data is both our raw
             material
-            and our product. Many compnies acquire enterprise systems with no architecture guiding production process or
+            and our product. Many companies acquire enterprise systems with no architecture guiding production process or
             the
             tying the system to processes and people giving way to potential program failure and loss of resources
             consisting
@@ -111,198 +111,216 @@
     </div>
   </div>
 
+  <!--about me-->
   <div>
-    <hr class="featurette-divider">
+    <hr class="featurette-divider"id="about">
+  </div>
+  <div class="portfolio-header">
+    <h1>About Moi</h1>
+  </div>
+  <div class="container-fluid" >
+    <div class="row featurette">
+      <div class="col-sm-3 col-md-7">
+        <h2 class="featurette-heading">Dare to be...<span class="text-muted">eccentric</span></h2>
+        <p class="lead"><strong> Hi!</strong> My name is Skittles, and my "owner" is a Rick Marshall. He is a developer
+          and
+          entrepreneur based out of Tampa Florida.
+          And while he lives in the southern United States, it was not always this way. He was in the Army for decades,
+          lived abroad for over 10 years in Italy, Germany and the UK and loves to see benefit come from hard work. </p>
+        <h2 class="featurette-heading">Designed to be... <span class="text-muted"> eclectic </span></h2>
+        <p class="lead"> For the past 30 years, we have been focused on delivering solutions to problems. <strong>
+            SOLUTIONS</strong> as I have never been interested in
+          things that did not deliver the expected value to the user. Whether that was an enterprise Project Management
+          System, a Branded Web Site or even a Bradley Fighting System.
+          If you are not delivering value, <strong> THEN WHY START?</strong>Solutions also come from a diversification
+          of
+          thought
+          and ideas.</p>
+        <h2 class="featurette-heading">Developed to be... <span class="text-muted"> extraordinary</span></h2>
+        <p class="lead"> I believe that extraordinary outcomes stem from efficient execution of the basics. Just like
+          the elite
+          military teams entrusted with their countries most difficult missions, seldom train on advanced techniques
+          until the basics
+          are mastered. This is the acceptance of the reality that mastery of a profession is through the command of its
+          building blocks.
+          Rick thinks this is true as well.
+        </p>
+        <h2 class="featurette-heading">Destined to be... <span class="text-muted"> efficacious </span></h2>
+        <p class="lead"> This brings me back to the beginning. I achieve the desired effects through mastery
+          of the basic components such as architecture, operations and data. Not one of these aspects brings
+          success of itself, but is the orchestration of component parts.
+        </p>
+      </div>
+      <div class="col-sm-5 col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="includes/skits.png" alt="500x500">
+      </div>
+    </div>
   </div>
 
-  <!--aboput me-->
-  <div class="row featurette">
-    <div class="col-sm-3 col-md-7">
-      <h2 class="featurette-heading">Dare to be...<span class="text-muted">eccentric</span></h2>
-      <p class="lead"><strong> Hi!</strong> My name is Skittles, and my "owner" is a Rick Marshall. He is a developer
-        and
-        entrepreneur based out of Tampa Florida.
-        And while he lives in the southern United States, it was not always this way. He was in the Army for decades,
-        lived abroad for over 10 years in Italy, Germany and the UK and loves to see benefit come from hard work. </p>
-      <h2 class="featurette-heading">Designed to be... <span class="text-muted"> eclectic </span></h2>
-      <p class="lead"> For the past 30 years, we have been focsed on delivering solutions to problems. <strong>
-          SOLUTIONS</strong> as I have never been interested in
-        things that did not deliver the expected value to the user. Whether that was an enterprise Project Management
-        System, a Branded Web Site or even a Bradley Fighting System.
-        If you are not delivering value, <strong> THEN WHY START?</strong>Solutions also come from a diversificaiton of
-        thought
-        and ideas.</p>
-      <h2 class="featurette-heading">Developed to be... <span class="text-muted"> extraordinary</span></h2>
-      <p class="lead"> I believe that extrtraordinary outcomes stem from effecient executtion of the basics. Just like
-        the elite
-        military teams entrusted with their countries most difficult missions, seldom train on advanced techniquest
-        until the basics
-        are mastered. This is the acceptance of the reality that mastery of a profession is through the command of its
-        building blocks.
-        Rick thinks this is true as well.
-      </p>
-      <h2 class="featurette-heading">Destined to be... <span class="text-muted"> efficacious </span></h2>
-      <p class="lead"> This brings me back to the beginning. I achieve the desired effects thorugh mastery
-        of the basic components such as architecture, operations and data. Not one of these aspects brings
-        success of itself, but is the orchestration of component parts.
-      </p>
-    </div>
-    <div class="col-sm-5 col-md-5">
-      <img class="featurette-image img-fluid mx-auto" src="includes/skits.png" alt="500x500">
-    </div>
-  </div>
 
   <!-- our work-->
   <div>
-    <hr class="featurette-divider">
+    <hr class="featurette-divider"id="portfolio">
   </div>
-
-  <div class="row">
-    <div class="col-sm-3 col-md-4">
-      <div class="card" style="width:400px">
-        <img class="card-img-top" src="includes/rpsls.jpg" alt="portfolio items rock paper scissors">
-        <div class="card-body">
-          <h4 class="card-title">Rock Paper Scissor Lizard Spock</h4>
-          <p class="card-text">A new twist on a classic game.</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
+  <div class="portfolio-header">
+    <h1>Portfolio</h1>
+  </div>
+  <div class="container-fluid" >
+    <div class="row">
+      <div class="card-deck">
+        <div class="card mn-4 shadow-sm" class="mx-auto">
+          <img class="card-img-top" src="includes/rpsls.jpg" alt="portfolio items rock paper scissors">
+          <div class="card-body">
+            <h4 class="card-title">Rock Paper Scissor Lizard Spock</h4>
+            <p class="card-text">A new twist on a classic game.</p>
+            <a href="https://github.com/isben22/RPS" class="btn btn-primary">Git Hub</a>
+          </div>
         </div>
-
-      </div>
-    </div>
-    <div class="col-sm-3 col-md-4">
-      <div class="card" style="width:400px">
-        <img class="card-img-top" src="http://ddsciences.com/assets/img/logo_large_s.png"
-          alt="portfolio item Corporate site">
-        <div class="card-body">
-          <h4 class="card-title">A Corporate Site</h4>
-          <p class="card-text">A new twist on a classic game.</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
+        <div class="card mn-4 shadow-sm" style="width:400px">
+          <img class="card-img-top" src="includes/DDSc.png" alt="portfolio item Corporate site">
+          <div class="card-body">
+            <h4 class="card-title">A Corporate Site</h4>
+            <p class="card-text">My company site, constantly evolving.</p>
+            <a href="https://ddsciences.com" class="btn btn-primary">Goto Site</a>
+          </div>
         </div>
-
-      </div>
-    </div>
-    <div class="col-sm-3 col-md-4">
-      <div class="card" style="width:400px">
-        <img class="card-img-top" src="includes/travel.png" alt="portfolio items travel app">
-        <div class="card-body">
-          <h4 class="card-title">A Corporate Site</h4>
-          <p class="card-text">A new twist on a classic game.</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
+        <div class="card mn-4 shadow-sm" style="width:400px">
+          <img class="card-img-top" src="includes/travel.png" alt="portfolio items travel app">
+          <div class="card-body">
+            <h4 class="card-title">A Corporate Site</h4>
+            <p class="card-text">A new twist on a classic game.</p>
+            <a href="https://github.com/isben22/DayTripGenerator" class="btn btn-primary">Git Hub</a>
+          </div>
         </div>
-
+        <div class="card mn-4 shadow-sm" style="width:400px">
+          <img class="card-img-top" src="includes/search.png" alt="portfolio item Corporate site">
+          <div class="card-body">
+            <h4 class="card-title">Most Wanted</h4>
+            <p class="card-text">A search tool example completed by a team.</p>
+            <a href="https://github.com/greedy17/mostWanted" class="btn btn-primary">Git Hub</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
   <!-- contact -->
   <div>
     <hr class="featurette-divider">
-      <div class="contact-header">
-        <h1>Contact Us</h1>
-      </div>
+    <div class="contact-header">
+      <h1>Contact Us</h1>
+    </div>
   </div>
-  <div class="container"></div>
-    <div class="row" >
-      
-      <img src="includes/1717.png" alt="basemap">
+  <div class="container-fluid" id="contact-form">
+    <div class="row" style="background:transparent url('includes/1717.png') no-repeat center center /cover">
+      <form>
+        <div class="form-group" id="contact-name">
+          <label for="contact-name">Name</label>
+          <input type="name" class="form-control">
+        </div>
+        <div class="form-group" id="contact-email">
+          <label for="contact-email">Email address</label>
+          <input type="email" class="form-control"> 
+        </div>
+        <div class="form-group" id="contact-comments">
+          <label for="comments">Comments</label>
+          <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="contact-submit">Submit</button>
+    </div>
 
-  </div>
+<footer class="footer">
+  <p class="float-right"><a href="#home">Back to top</a></p>
+  <p>&copy; 2020 Decision and Data Sciences, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
 
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/36565585eb.js" crossorigin="anonymous"></script>
 
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#home">Back to top</a></p>
-    <p>&copy; 2020 Decision and Data Sciences, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+    <!-- openmap script-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
-  <!-- Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/36565585eb.js" crossorigin="anonymous"></script>
+    <!--service animation script-->
+    <script>
+      $(window).scroll(function () {
+        $('#service1').each(function () {
+          var imagePos = $(this).offset().top;
 
-  <!-- openmap script-->
-  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-
-  <!--service animation script-->
-  <script>
-    $(window).scroll(function () {
-      $('#service1').each(function () {
-        var imagePos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow + 200) {
-          $(this).addClass("slideUp");
-        }
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 200) {
+            $(this).addClass("slideUp");
+          }
+        });
       });
-    });
-  </script>
+    </script>
 
-  <script>
-    $(window).scroll(function () {
-      $('#service1').each(function () {
-        var imagePos = $(this).offset().top;
+    <script>
+      $(window).scroll(function () {
+        $('#service1').each(function () {
+          var imagePos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow + 200) {
-          $(this).addClass("slideUp");
-        }
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 200) {
+            $(this).addClass("slideUp");
+          }
+        });
       });
-    });
-  </script>
-  <script>
-    $(window).scroll(function () {
-      $('#service2').each(function () {
-        var imagePos = $(this).offset().top;
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $('#service2').each(function () {
+          var imagePos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow + 600) {
-          $(this).addClass("slideUp");
-        }
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 600) {
+            $(this).addClass("slideUp");
+          }
+        });
       });
-    });
-  </script>
+    </script>
 
-  <script>
-    $(window).scroll(function () {
-      $('#service2').each(function () {
-        var imagePos = $(this).offset().top;
+    <script>
+      $(window).scroll(function () {
+        $('#service2').each(function () {
+          var imagePos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow + 200) {
-          $(this).addClass("slideUp");
-        }
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 200) {
+            $(this).addClass("slideUp");
+          }
+        });
       });
-    });
-  </script>
-  <script>
-    $(window).scroll(function () {
-      $('#service3').each(function () {
-        var imagePos = $(this).offset().top;
+    </script>
+    <script>
+      $(window).scroll(function () {
+        $('#service3').each(function () {
+          var imagePos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow + 175) {
-          $(this).addClass("slideUp");
-        }
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 175) {
+            $(this).addClass("slideUp");
+          }
+        });
       });
-    });
-  </script>
+    </script>
 
-  <script>
-    $(window).scroll(function () {
-      $('#service3').each(function () {
-        var imagePos = $(this).offset().top;
+    <script>
+      $(window).scroll(function () {
+        $('#service3').each(function () {
+          var imagePos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow + 150) {
-          $(this).addClass("slideUp");
-        }
+          var topOfWindow = $(window).scrollTop();
+          if (imagePos < topOfWindow + 150) {
+            $(this).addClass("slideUp");
+          }
+        });
       });
-    });
-
+    </script>
 </body>
 
 </html>
