@@ -1,0 +1,11 @@
+.jumbotron {
+    color: whitesmoke;
+    background-image: linear-gradient(rgba(43, 43, 44, 0.5), rgba(252, 252, 250, 0.5)),url(includes/server-2160321.jpg);
+    background-position: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }

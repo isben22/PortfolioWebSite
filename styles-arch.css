@@ -1,0 +1,11 @@
+
+/* architecture page */
+
+.jumbotron {
+    color: whitesmoke;
+    background-image: linear-gradient(rgba(43, 43, 44, 0.5), rgba(252, 252, 250, 0.5)),url(includes/london-2682503.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
